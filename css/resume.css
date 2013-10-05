@@ -1,8 +1,20 @@
+#content ul {
+    padding-left: 1.25em;
+}
+
 #portrait {
     padding: 60px 40px 0;
 }
 
-.side-nav {
-    padding-top: 68px;
+#sidebar {
     text-align: center;
+}
+
+.side-nav {
+    padding-top: 28px;
+}
+
+kbd {
+    background: #ededed url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAMFBMVEX///////+IioX29vbq6unJx8O9vbvl5ePZ2NX7+/iysrLp5+KjoZyop6Oxrqrx8O1Uz2ohAAAAAXRSTlMAQObYZgAAAENJREFUeNotxscBwCAMA0AsudAS9t82hnCvK2kAUQ6FCPSuzvy/x3wf0RFir6KAnbKqMSstMEnZZW/0cWqNVMs6Lv8AS44BeHjFSEUAAAAASUVORK5CYII=) center right 3px no-repeat;
+    padding-right: 18px;
 }
