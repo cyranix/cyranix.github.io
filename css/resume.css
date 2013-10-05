@@ -10,6 +10,15 @@
     text-align: center;
 }
 
+.panel {
+    padding: .75em;
+}
+
+.tech-logo {
+    height: 32px;
+    padding: 0 6px;
+}
+
 .side-nav {
     padding-top: 28px;
 }
