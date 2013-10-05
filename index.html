@@ -24,15 +24,13 @@
 <div id="main" class="row">
     <!-- Main content -->
     <div class="large-9 push-3 columns">
-        <img src="http://placehold.it/1000x400&text=[img]">
-        <hr>
         <h3><a name="about"></a>About Me</h3>
       
         <p>I'm <strong>Andrew Harrison</strong>, a software and web developer currently living in Victoria, BC, Canada.</p>
 
         <p>Over the past 5+ years I have established myself as a generalist with a web focus, thanks to my experience working for companies with a variety of environments and pursuits. I am comfortable with JavaScript, HTML/CSS, Java, PHP, and SQL; additionally, I have some degree of familiarity with shell scripts, Python, Elixir, C#, and several non-relational databases (MongoDB, Neo4J, and RethinkDB). This breadth of exposure has helped me excel at translating patterns for performant, reliable, maintainable software across languages and frameworks. I feel at home in an Agile environment with continuous integration and am proficient in version control under Git.</p>
 
-        <p>In addition to my technical abilities I am known for my exceptional communication skills, diligent attention to detail, and willingness to be a teacher or leader when needed. I maintain a deep commitment to professional growth, constantly reading up on advances and issues in programming as well as engaging in hands-on experimentation.</p>
+        <p>In addition to my technical abilities I am known for my exceptional communication skills, diligent attention to detail, and willingness to be a teacher or leader. I maintain a deep commitment to professional growth, constantly reading up on advances and issues in programming as well as engaging in hands-on experimentation.</p>
 
         <p>At this time, I'm especially interested in <strong>working remotely</strong>. This isn't just out of convenience. I am a strong proponent of asynchronous workflows, a fairly aggressive practitioner of Inbox Zero, and a constant presence in IRC and Google Chat. Moreover, while I will be living in Victoria for a little while longer, eventually I will need to move (most likely within North America) in support of my wife's career; my ideal outcome would be to maintain continuity in my own career and stay with a great company through any relocations. <em>Please note that I am a US citizen with an open work permit in Canada.</em></p>
 
@@ -99,13 +97,18 @@
 
     <!-- Sidebar -->
     <div id="sidebar" class="large-3 pull-9 columns">
-        <ul class="side-nav">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#work">Work History</a></li>
-            <li><a href="#personal">Personal Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
+        <div class="row">
+            <img src="img/portrait.png" id="portrait">
+        </div>
+        <div id="side-nav-container" class="row">
+            <ul class="side-nav">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work History</a></li>
+                <li><a href="#personal">Personal Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 
@@ -119,4 +122,4 @@
 
 <script src="js/jquery-2.0.3.min.js"></script>
 <script src="js/fixto.min.js"></script>
-<script>$('#sidebar').fixTo('#main');</script>
+<script>$('#side-nav-container').fixTo('#main');</script>

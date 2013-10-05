@@ -1,4 +1,8 @@
+#portrait {
+    padding: 60px 40px 0;
+}
+
 .side-nav {
-    padding: 74px 0;
+    padding-top: 68px;
     text-align: center;
 }
