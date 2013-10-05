@@ -20,7 +20,7 @@
     </div>
 </div>
 
-<div class="row">
+<div id="main" class="row">
     <!-- Main content -->
     <div class="large-9 push-3 columns">
         <img src="http://placehold.it/1000x400&text=[img]">
@@ -97,7 +97,7 @@
     </div>
 
     <!-- Sidebar -->
-    <div class="large-3 pull-9 columns">
+    <div id="sidebar" class="large-3 pull-9 columns">
         <ul class="side-nav">
             <li><a href="#about">About Me</a></li>
             <li><a href="#work">Work History</a></li>
@@ -117,3 +117,5 @@
 </footer>
 
 <script src="js/jquery-2.0.3.min.js"></script>
+<script src="js/fixto.min.js"></script>
+<script>$('#sidebar').fixTo('#main');</script>
